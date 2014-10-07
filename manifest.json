@@ -1,0 +1,14 @@
+{
+  "name": "Storage Demo",
+  "description": "Storage Demo",
+  "manifest_version": 2,
+  "version": "0.1",
+  "permissions": [
+    "unlimitedStorage"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
